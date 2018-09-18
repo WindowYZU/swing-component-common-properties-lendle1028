@@ -54,7 +54,7 @@ public class RevalidateSample extends javax.swing.JFrame {
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addContainerGap(263, Short.MAX_VALUE)
+                .addGap(87, 263, Short.MAX_VALUE)
                 .addComponent(jButton2)
                 .addContainerGap())
             .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
@@ -68,6 +68,7 @@ public class RevalidateSample extends javax.swing.JFrame {
         JButton button=new JButton("1");
         jPanel1.add(button);
         //試試看，應該加入 repaint? invalidate? revalidate?
+        jPanel1.revalidate();
         /////////////////////////////////////////////////
     }//GEN-LAST:event_jButton2ActionPerformed
 
