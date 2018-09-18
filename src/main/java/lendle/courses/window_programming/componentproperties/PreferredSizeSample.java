@@ -5,6 +5,7 @@
  */
 package lendle.courses.window_programming.componentproperties;
 
+import java.awt.BorderLayout;
 import java.awt.Color;
 import java.awt.Dimension;
 import java.awt.FlowLayout;
@@ -41,6 +42,7 @@ public class PreferredSizeSample extends JPanel{
             PreferredSizeSample c=new PreferredSizeSample();
             //設定 preferredSize 為 50, 50 跟 100, 100 跟 150, 150
             //觀察看看
+            c.setPreferredSize(new Dimension(100, 100));
             /////////////////////////////////////////////
             frame.add(c);
         }
